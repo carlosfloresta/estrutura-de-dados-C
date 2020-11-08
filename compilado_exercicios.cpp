@@ -654,7 +654,7 @@ system("pause");
 int questionamentos(){
 	
 	printf("1)Qual o pior caso para o algoritmo BUBBLESORT?\n");
-	printf("Resposta:  No pior caso, são feitas n^2 operacoes. A complexidade desse algoritmo e de Ordem quadratica. Por isso, ele nao e recomendado para programas que precisem de velocidade e operem com quantidade elevada de dados.\n\n");
+	printf("Resposta:  No pior caso, sÃ£o feitas n^2 operacoes. A complexidade desse algoritmo e de Ordem quadratica. Por isso, ele nao e recomendado para programas que precisem de velocidade e operem com quantidade elevada de dados.\n\n");
 	
 	printf("2)Esse algoritmo pode ter melhorias? qual ou quais? \n");
 	printf("Resposta: Sim, dividir o vetor em dois vetores menores que serao ordenados independentemente e combinados para produzir o resultado final. \n\n");
@@ -685,7 +685,7 @@ int main(int argc, char *argv[]) {
 	printf("4- Soma de todos numeros impares ate 100 \n");
 	printf(" 5- Peso medio dos animais(gados) \n");
 	printf(" 6- Media dos alunos e menor e maior nota \n");
-	printf(" 7- Raizes do polinomio ax²+bx+c=0 \n");
+	printf(" 7- Raizes do polinomio axÂ²+bx+c=0 \n");
 	printf(" 8- Equilatero,isosceles e escaleno \n ");
 	printf("9- Armazenar 50 notas e mostrar menor e maior nota, e a media da turma \n");
 	printf(" 10- Escreva o nome do aluno e receba na ordem inversa, e veja a quantidade de vogais \n");
@@ -693,7 +693,7 @@ int main(int argc, char *argv[]) {
 	printf(" 12- Calcular o valor fatorial \n");
 	printf(" 13- Calcular valor de e=1/1!+1/2!+1/3!...1/m! \n ");
 	printf("14- Vagas para condominos a cada 12 meses \n");
-	printf(" 15- Calcular raizes de 2° grau usando funcoes \n");
+	printf(" 15- Calcular raizes de 2Â° grau usando funcoes \n");
 	printf(" 16- Receber matriz e escrever ela transposta e inversa \n");
 	printf(" 17- Ponteiros - funcao carrega \n");
 	printf(" 18- Ponteiros - funcao puts \n");
@@ -772,7 +772,7 @@ int main(int argc, char *argv[]) {
         break;
         
         case 7: system("cls");
-                printf("\n \n 7) Digite o valor de A, depois de B, e por ultimo C, para verificar se ha Raizes do polinomio ax²+bx+c=0 ! \n \n");
+                printf("\n \n 7) Digite o valor de A, depois de B, e por ultimo C, para verificar se ha Raizes do polinomio axÂ²+bx+c=0 ! \n \n");
 		resultado = polinomio(a,b,c,delta,r1,r2);
         break;
         
