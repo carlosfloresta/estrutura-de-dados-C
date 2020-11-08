@@ -2,10 +2,10 @@
 
 Compiled of exercises in c.
 
-- Compiled of exercises
+### Compiled of exercises
 ![](1.png)
 
-- Ordering methods
+### Ordering methods
 ![](2.png)
 
 ## Installation
